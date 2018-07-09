@@ -1,4 +1,4 @@
-cp ~/Emacs-private ~/.emacs.d
+cp -r Emacs-private ~/emacs.d
 rm -rf ~/.emacs.d
 mv .emacs.d ~
 mkdir .emacs.d/site-lisp
