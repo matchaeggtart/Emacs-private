@@ -1,6 +1,5 @@
 # Emacs-private
-My configuration for Emacs
-$ cd ~
-$ git clone https://github.com/matchaeggtart/Emacs-private.git
-sh Emacs-private/install.sh
-
+My configuration for Emacs <br /> 
+$ cd ~ <br /> 
+$ git clone https://github.com/matchaeggtart/Emacs-private.git <br /> 
+sh Emacs-private/install.sh <br /> 
