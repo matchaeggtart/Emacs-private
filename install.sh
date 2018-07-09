@@ -1,7 +1,7 @@
-mkdir -p ~/.emacs.d/lisp/
+mkdir -p ~/.emacs.d/site-lisp/
 cp -r Emacs-private/* ~/.emacs.d/
 
-cd ~/.emacs.d/lisp/
+cd ~/.emacs.d/site-lisp/
 git clone https://github.com/google/styleguide.git
 mv styleguide google-style
 
