@@ -4,11 +4,11 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(add-to-list 'load-path "/home/donald/.emacs.d/lisp/")
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (defun open-my-init-file()
   (interactive)
-  (find-file "/home/donald/.emacs.d/init.el"))
+  (find-file "~/.emacs.d/init.el"))
 
 (require 'init-ui)
 (require 'init-better-defaults)
@@ -18,6 +18,6 @@
 (require 'init-python)
 (require 'init-org)
 
-(setq custom-file (expand-file-name "/home/donald/.emacs.d/lisp/custom.el" user-emacs-directory))
+(setq custom-file (expand-file-name "~/.emacs.d/lisp/custom.el" user-emacs-directory))
 
 (load-file custom-file)
