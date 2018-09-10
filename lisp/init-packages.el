@@ -2,7 +2,7 @@
 
 (when (>= emacs-major-version 24)
   (setq package-archives '((("gnu"   . "http://elpa.gnu.org/packages/")
-			   ("melpa" . "https://melpa.org/packages/"))))
+			   ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
 
 ;; Add Packages
 (defvar donald/packages '(
