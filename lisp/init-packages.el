@@ -1,8 +1,8 @@
 (require 'cl)
 
 (when (>= emacs-major-version 24)
-  (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
-			   ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
+  (setq package-archives '((("gnu"   . "http://elpa.gnu.org/packages/")
+			   ("melpa" . "https://melpa.org/packages/"))))
 
 ;; Add Packages
 (defvar donald/packages '(
