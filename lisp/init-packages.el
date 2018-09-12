@@ -1,8 +1,11 @@
-(require 'cl)
-
 (when (>= emacs-major-version 24)
-  (setq package-archives '((("gnu"   . "http://elpa.gnu.org/packages/")
-			   ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))))
+  (require 'package)
+  (package-initialize)
+  (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                           ("melpa" . "http://elpa.emacs-china.org/melpa/"))))
+
+;; cl - Common Lisp Extension
+(require 'cl)
 
 ;; Add Packages
 (defvar donald/packages '(
