@@ -32,5 +32,7 @@
 (load-theme 'spacemacs-dark t)
 
 (global-company-mode 1)
+(setq-default company-idle-delay 0.1)
+(setq-default company-minimum-prefix-length 1)
 
 (provide 'init-packages)
