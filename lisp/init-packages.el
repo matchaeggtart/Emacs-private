@@ -11,7 +11,8 @@
 (defvar donald/packages '(
 			  ;; --- Auto-completion ---
 			  spacemacs-theme
-			  company			  
+			  solarized-theme
+			  company
 			  ) "Default packages")
 
 (setq package-selected-packages donald/packages)
@@ -30,6 +31,7 @@
 
 ;; theme
 (load-theme 'spacemacs-dark t)
+;; (load-theme 'solarized-dark t)
 
 (global-company-mode 1)
 (setq-default company-idle-delay 0.1)
