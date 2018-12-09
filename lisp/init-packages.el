@@ -31,9 +31,9 @@
       (package-install pkg))))
 
 ;; theme
-;; (load-theme 'spacemacs-dark t)
+(load-theme 'spacemacs-dark t)
 ;; (load-theme 'dracula t)
-(load-theme 'solarized-dark t)
+;; (load-theme 'solarized-dark t)
 
 (global-company-mode 1)
 (setq-default company-idle-delay 0.1)
